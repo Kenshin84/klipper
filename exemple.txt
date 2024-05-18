@@ -1,0 +1,2 @@
+docker build -t flaskapp .  
+docker run -it --publish  4000:3500 flaskapp 
